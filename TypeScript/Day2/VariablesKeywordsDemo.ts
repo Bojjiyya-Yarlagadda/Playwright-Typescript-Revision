@@ -127,5 +127,12 @@ console.log(aged);
 console.log(ages);
 
 //=========================Hoisting ==============================
+  //var - hoisted with undefined , let and const (not intialised)
   console.log(abc); //undefined
   var abc=90;
+  
+  // console.log(abcd); //Block-scoped variable 'abcd' used before its declaration.VariablesKeywordsDemo.ts(135, 7): 'abcd' is declared here.
+  let abcd=900;
+
+ // console.log(abcde);//Block-scoped variable 'abcde' used before its declaration.VariablesKeywordsDemo.ts(138, 9): 'abcde' is declared here.
+  const abcde=1000;
