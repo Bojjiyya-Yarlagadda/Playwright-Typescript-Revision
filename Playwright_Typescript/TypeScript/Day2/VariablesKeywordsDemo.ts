@@ -88,7 +88,7 @@ function scopeDiff(){
 let,const -does not allows the re-declaration */
 
 var city ="Tirupati";
-var city ="vijauawada";
+var city ="vijayawada";
 
 console.log(city) ;
 
@@ -128,9 +128,9 @@ console.log(ages);
 
 //=========================Hoisting ==============================
   //var - hoisted with undefined , let and const (not intialised)
-  console.log(abc); //undefined
+   //undefined
   var abc=90;
-  
+  console.log(abc);
   // console.log(abcd); //Block-scoped variable 'abcd' used before its declaration.VariablesKeywordsDemo.ts(135, 7): 'abcd' is declared here.
   let abcd=900;
 
